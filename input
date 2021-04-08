@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    String b;
+    switch(a) {
+      case 1: 
+        b = "숫자 1";
+      break;
+      case 2: 
+        b = "숫자 2";
+      break;
+      case 3: 
+        b = "숫자 3";
+      break;
+      default :
+        b = "제대로 입력하세요";
+      break;
+    }
+    System.out.println(b);
+    }
+}
