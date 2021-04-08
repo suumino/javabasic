@@ -1,5 +1,4 @@
 public class HouseDog extends Dog{
-    // 생성자 : 클라스 명과 이름 동일, 리턴 없음
     public HouseDog(String name) {
         this.setName(name);
     }
