@@ -1,0 +1,29 @@
+자바
+
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+
+    int a;
+    Scanner input = new Scanner(System.in);
+    System.out.println("숫자 입력 : ");
+    a = input.nextInt();
+    String b = (a == 1 )? "st" : (a == 2)? "nd" : (a == 3) ? "rd" : "th";
+
+    System.out.println(a+"는 "+a+b);
+  }       
+}
+
+
+
+
+
+파이썬
+
+
+a = int(input("숫자를 입력하세요 : "))
+
+b = (a == 1) and 'st' or (a == 2) and 'nd' or (a == 3) and 'rd' or 'th'
+
+print("{}는 {}{}".format(a, a, b))
